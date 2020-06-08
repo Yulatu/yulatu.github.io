@@ -34,9 +34,9 @@ main {
     height: 500px;
     /* background-color:rgb(175, 175, 175); */
     text-align: center;
-    padding-top: 10px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 footer {
