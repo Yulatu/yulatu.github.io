@@ -62,8 +62,8 @@ h1{
     text-decoration: none;
 }
 
-nav a{
-    font-size:150%;
+nav div a{
+    font-size:auto;
     color:black;
     font-family: Georgia, Helvetica, sans-serif;
     text-decoration: underline;
