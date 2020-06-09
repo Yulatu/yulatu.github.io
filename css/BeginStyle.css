@@ -67,8 +67,8 @@ nav a{
     color:black;
     font-family: Georgia, Helvetica, sans-serif;
     text-decoration: underline;
-    padding-left: 8%;
-    padding-right: 8%;
+    /* padding-left: 8%; */
+    /* padding-right: 8%; */
 }
 
 name {

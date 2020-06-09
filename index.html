@@ -4,6 +4,14 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
+        <!-- 新 Bootstrap4 核心 CSS 文件 -->
+        <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+        <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+        <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+        <!-- bootstrap.bundle.min.js 用于弹窗、提示、下拉菜单，包含了 popper.min.js -->
+        <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+        <!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
+        <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>What so called title</title>
@@ -16,11 +24,11 @@
             <header>
                 <img src="img/TyeWho_black.png" alt="This is the logo image."  height=120px>
             </header>
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">Publications</a>
-                <a href="#">Codes</a>
-                <a href="#">Gallery</a>
+            <nav class="row">
+                <div class="col"><a href="#">Home</a></div>
+                <div class="col"><a href="#">Publications</a></div>
+                <div class="col"><a href="#">Codes</a></div>
+                <div class="col"><a href="#">Gallery</a></div>
             </nav>
             <main>
                 <h1>Let's do it!</h1>
